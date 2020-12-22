@@ -4,6 +4,7 @@ import "fmt"
 
 // global
 var g = 3
+var i int
 
 func main() {
 	// short declaration operator :=
@@ -20,4 +21,5 @@ func main() {
 	// var keyword 
 	// can be used to create global variables outside of a function body 
 	fmt.Println("Global identifier g has a value of", g)
+	fmt.Println("zero value of i:", i)
 }
